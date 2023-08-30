@@ -1,0 +1,161 @@
+/*Responsividade*/
+
+/*Titulo*/
+@media(max-width: 900px)
+{
+h1{
+font-size: 3em;
+}
+}
+
+@media(max-width: 500px)
+{
+h1{
+font-size: 2.5em;
+}
+}
+
+@media(max-width: 400px){
+h1{
+font-size:2em  ;
+}
+}
+
+/*Textos*/
+@media (max-width:900px){
+p{
+font-size: 1.7em;
+margin: 20px 40px;
+
+}
+}
+
+@media (max-width:700px){
+p{
+font-size: 1.5em;
+}
+}
+
+@media (max-width:500px){
+p{
+font-size: 1.3em;
+}
+}
+
+@media (max-width:500px){
+p{
+font-size: 1.1em;
+}
+}
+
+
+/*Traço do titulo*/
+@media(max-width: 900px)
+{
+h1.itens-title::after{
+width: 250px;
+height: 5px;
+
+}
+}
+
+@media(max-width: 500px)
+{
+h1.itens-title::after{
+width: 200px;
+height: 4px;
+
+}
+}
+
+@media(max-width: 400px)
+{
+h1.itens-title::after{
+width: 150px;
+height: 3px;
+}
+}
+
+
+/*A imagem inicial na versão desktop vai sumir quando o site estiver no mobile*/
+@media(max-width: 600px){
+.img-inicial
+{
+display: none;
+}
+
+/*Configuração de posição da imagem mobile*/
+.img-inicial-mobile{
+display: flex;
+width: 100%;
+margin-top: 50px;
+}
+
+/*Imagem do efeito de fade*/
+#img-mobile-efect
+{
+display: flex;
+width: 300px;
+height: 300px;
+margin-top: 50px;
+position: absolute;
+top: 2px;
+opacity: 1;
+animation-name: fade; /*Nome da animação*/
+animation-duration: 3s; /*Duração da animação*/
+animation-iteration-count: infinite; /*Contagem que aquela animaçãao sera executada*/
+z-index: -1;
+}
+}
+
+@keyframes fade {
+0% { /*Animação cmeça em 0*/
+opacity: 0;
+}
+50%  { /*Atingindo seus 50% ela começa a aparecer*/
+opacity: 1;
+}
+100% { /*Ao chegar o 100% ela perde sua opacidade total e com animation infinite ela retorna esse mesmo processo infinitas vezes*/
+opacity: 0;
+}
+}
+
+/*Configuração da imagem 1 */
+@media(max-width: 1100px){
+
+.img1{
+width: 800px;
+height: 450px;
+}
+}
+
+@media(max-width: 830px){
+.img1{
+width: 600px;
+height: 338px;
+}
+}
+
+
+@media(max-width: 630px){
+.img1{
+width: 400px;
+height: 225px;
+}
+}
+
+@media(max-width: 430px){
+.img1{
+width: 300px;
+height: 170px;
+}
+}
+
+
+
+
+
+
+
+
+

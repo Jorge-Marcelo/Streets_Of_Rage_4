@@ -1,0 +1,161 @@
+/*Configurações padrão do documento*/
+*{
+margin: 0;
+padding: 0;
+}
+
+/*Configuração do corpo do documento*/
+body{
+background-color: black;
+font-family: 'Oswald', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+
+/*Configuração do conteudo principal do site*/
+main{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+/*Configuração da sessão*/
+section{
+margin-top: 20px;
+}
+
+/*Configuração do posição do texto*/
+article{
+text-align: center;
+}
+
+/*Imagem principal*/
+.img-inicial{
+width: 100%;
+margin-top: 40px;
+}
+
+/*Ocultando a imagem na versão mobile quando estiver na versão desktop*/
+.img-inicial-mobile{
+display: none;
+}
+
+/*Ocultando o efeito  na versão mobile quando estiver na versão desktop*/
+#img-mobile-efect
+{
+display: none;
+}
+
+.logo{
+background: linear-gradient(90deg, #7c0101, 
+#ff0000, rgb(110, 1, 1)); /*Dfinindo as cores do gradient*/
+background-size: 400%; /*Tamanho do background*/
+-webkit-text-fill-color: transparent; /*Definindo o texto como transparente para que gradiente seja sobreposto*/
+background-clip: text; /*Fazer o texto se comportar como se fosse uma imagem de background para que seja adicionado as cores do gradiente de fundo*/
+-webkit-background-clip: text;
+animation-name: gradient; /*Nome da animação*/
+animation-duration: 10s; /*Duração da animação*/
+animation-timing-function: ease-in; /*Tipo de progressão da animação*/
+animation-iteration-count: infinite; /*Quantas vezes a animação sera executada*/
+}
+
+
+h1{
+font-family: 'Oswald', sans-serif;
+font-size: 4em;
+background: linear-gradient(90deg, #ff0000, 
+#ffff00, rgb(255, 94, 0)); /*Dfinindo as cores do gradient*/
+background-size: 400%; /*Tamanho do background*/
+-webkit-text-fill-color: transparent; /*Definindo o texto como transparente para que gradiente seja sobreposto*/
+background-clip: text; /*Fazer o texto se comportar como se fosse uma imagem de background para que seja adicionado as cores do gradiente de fundo*/
+-webkit-background-clip: text;
+animation-name: gradient; /*Nome da animação*/
+animation-duration: 10s; /*Duração da animação*/
+animation-timing-function: ease-in; /*Tipo de progressão da animação*/
+animation-iteration-count: infinite; /*Quantas vezes a animação sera executada*/
+}
+
+
+@keyframes gradient{
+0% {
+background-position: 0%; /*Posição inicial*/
+}
+100% {
+background-position: 400%; /*Posição final*/
+}
+}
+
+
+
+h1.itens-title::after{
+display: block;
+margin: auto;
+content: '';
+bottom: 5px;
+height: 7px;
+border-radius: 10px;
+width: 300px;
+opacity: 1;
+background: linear-gradient(90deg, #ff0000, 
+#ffff00, rgb(255, 94, 0)); /*Dfinindo as cores do gradient*/
+background-size: 400%; /*Tamanho do background*/
+animation-name: gradient; /*Nome da animação*/
+animation-duration: 10s; /*Duração da animação*/
+animation-timing-function: ease-in; /*Tipo de progressão da animação*/
+animation-iteration-count: infinite; /*Quantas vezes a animação sera executada*/
+}
+
+
+@keyframes gradient{
+0% {
+background-position: 0%; /*Posição inicial*/
+}
+100% {
+background-position: 400%; /*Posição final*/
+}
+}
+
+/*Textos*/
+p{
+font-family: 'Josefin Sans', sans-serif;
+font-size: 2em;
+text-align: center;
+color: rgb(255, 255, 255);
+margin: 20px 150px;
+}
+
+figcaption{
+font-family: 'Josefin Sans', sans-serif;
+font-size: 2em;
+text-align: center;
+color: rgb(255, 255, 255);
+margin: 20px 150px;
+}
+
+
+/*Imgems iniciais*/
+.img1{
+margin: 0 20px;
+border: 5px solid;
+border-image-slice: 1;
+border-image-source: linear-gradient(to left, #ff0000, #ff8800);
+}
+
+.img2{
+border: 5px solid;
+border-image-slice: 1;
+border-image-source: linear-gradient(to left, #ff0000, #ff8800);
+margin: 10px;
+}
+
+.video{
+border: 5px solid;
+border-image-slice: 1;
+border-image-source: linear-gradient(to left, #ff0000, #ff8800);
+margin: 10px;
+}
+
+
