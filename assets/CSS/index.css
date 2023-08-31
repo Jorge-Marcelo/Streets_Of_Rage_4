@@ -49,18 +49,6 @@ display: none;
 display: none;
 }
 
-.logo{
-background: linear-gradient(90deg, #7c0101, 
-#ff0000, rgb(110, 1, 1)); /*Dfinindo as cores do gradient*/
-background-size: 400%; /*Tamanho do background*/
--webkit-text-fill-color: transparent; /*Definindo o texto como transparente para que gradiente seja sobreposto*/
-background-clip: text; /*Fazer o texto se comportar como se fosse uma imagem de background para que seja adicionado as cores do gradiente de fundo*/
--webkit-background-clip: text;
-animation-name: gradient; /*Nome da animação*/
-animation-duration: 10s; /*Duração da animação*/
-animation-timing-function: ease-in; /*Tipo de progressão da animação*/
-animation-iteration-count: infinite; /*Quantas vezes a animação sera executada*/
-}
 
 
 h1{

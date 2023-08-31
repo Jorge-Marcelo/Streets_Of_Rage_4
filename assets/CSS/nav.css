@@ -11,10 +11,7 @@ transition: 0.5s;
 }
 
 /*-----------------------------------*/
-#logo{
-font-size: 1.5em;
-color: white;
-}
+
 
 .star{
 display: none;
@@ -52,7 +49,7 @@ display: none;
 }
 
 /*Configuração caso a tela seja mobile*/
-@media(max-width: 1200px){
+@media(max-width: 1460px){
 li{
 border-bottom: 3px solid rgb(255, 0, 0);
 }
@@ -86,10 +83,6 @@ visibility: visible;
 overflow-y: auto;
 }
 
-
-
-
-
 #menu a {
 margin: 10px;
 }
@@ -97,8 +90,6 @@ margin: 10px;
 a{
 margin-bottom: 5px;
 }
-
-
 
 /*Configurações do botão Mobile*/
 #btn-mobile{
