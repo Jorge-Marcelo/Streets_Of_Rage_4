@@ -1,0 +1,492 @@
+.axel-anim{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: calc(9600px / 16);
+height: 600px;
+background-image: url("../Imagens/slider-animation/Personagens/Axel/Axel-Animation-Final.png");
+object-fit: contain;
+animation-name: Axel;
+animation-duration: 1s;
+animation-timing-function: steps(16);
+animation-iteration-count: infinite;
+}
+
+
+@keyframes Axel{
+from{
+background-position: 0;
+} to{
+background-position:9600px ;
+}
+}
+
+
+@media(max-width:690px){
+.axel-anim{
+transform: scaleX(0.8); 
+transform-origin: left; 
+}
+
+.slides{
+width: 450px;
+margin-right: 40px;
+
+}
+}
+
+@media(max-width:560px){
+.axel-anim{
+transform: scaleX(0.7); 
+transform-origin: left; 
+}
+
+.slides{
+width: 400px;
+margin-right: 30px;
+}
+}
+
+@media(max-width:460px){
+.axel-anim{
+transform: scaleX(0.6); 
+transform-origin: left; 
+}
+
+.slides{
+width: 360px;
+margin-right: 10px;
+}
+}
+
+
+@media(max-width:400px){
+.axel-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+        
+.slides{
+width: 330px;
+margin-left: 35px;
+}
+}
+
+
+@media(max-width:350px){
+.axel-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+        
+.slides{
+width: 300px;
+margin-left: 10px;
+}
+}
+
+.blaze-anim{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: calc(7800px/13);
+height: 600px;
+background-image: url("../Imagens/slider-animation/Personagens/Blaze/Blaze-Animation-Final.png");
+object-fit: contain;
+animation-name: Blaze;
+animation-duration: 1s;
+animation-timing-function: steps(13);
+animation-iteration-count: infinite;
+}
+
+@keyframes Blaze{
+from{
+background-position: 0;
+} to{
+background-position:7800px ;
+}
+}
+
+
+@media(max-width:690px){
+.blaze-anim{
+transform: scaleX(0.8); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:560px){
+.blaze-anim{
+transform: scaleX(0.7); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:460px){
+.blaze-anim{
+transform: scaleX(0.6); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:400px){
+.blaze-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:350px){
+.blze-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+
+.adam-anim{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: calc(7200px/12);
+height: 600px;
+background-image: url("../Imagens/slider-animation/Personagens/Adam/Adam-Animation-Final.png");
+object-fit: contain;
+animation-name: Adam;
+animation-duration: 1s;
+animation-timing-function: steps(12);
+animation-iteration-count: infinite;
+}
+
+@keyframes Adam{
+from{
+background-position: 0;
+} to{
+background-position:7200px ;
+}
+}
+
+
+@media(max-width:690px){
+.adam-anim{
+transform: scaleX(0.8); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:560px){
+.adam-anim{
+transform: scaleX(0.7); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:460px){
+.adam-anim{
+transform: scaleX(0.6); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:400px){
+.adam-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:350px){
+.adam-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+
+.cherry-anim{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: calc(4200px/7);
+height: 600px;
+background-image: url("../Imagens/slider-animation/Personagens/Cherry/Cherry-Animation-Final.png");
+object-fit: contain;
+animation-name: Cherry;
+animation-duration: 1s;
+animation-timing-function: steps(7);
+animation-iteration-count: infinite;
+}
+
+@keyframes Cherry{
+from{
+background-position: 0;
+} to{
+background-position:4200px ;
+}
+}
+
+
+
+@media(max-width:690px){
+.cherry-anim{
+transform: scaleX(0.8); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:560px){
+.cherry-anim{
+transform: scaleX(0.7); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:460px){
+.cherry-anim{
+transform: scaleX(0.6); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:400px){
+.cherry-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:350px){
+.cherry-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+
+.floyd{
+display: flex;
+width: 600px;
+height: 600px;
+flex-direction: column;
+align-items: center;
+background-image: url("../Imagens/slider-animation/Personagens/Floyid/00.png");
+object-fit: contain;
+}
+
+
+@media(max-width:690px){
+.floyd{
+transform: scaleX(0.8); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:560px){
+.floyd{
+transform: scaleX(0.7); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:460px){
+.floyd{
+transform: scaleX(0.6); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:400px){
+.floyd{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:350px){
+.floyd{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+.estel-anim{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: calc(4200px/7);
+height: 600px;
+background-image: url("../Imagens/slider-animation/Personagens/Estel/Estel-Animation-Final.png");
+object-fit: contain;
+animation-name: Estel;
+animation-duration: 1s;
+animation-timing-function: steps(7);
+animation-iteration-count: infinite;
+}
+
+@keyframes Estel{
+from{
+background-position: 0;
+} to{
+background-position:4200px ;
+}
+}
+
+
+@media(max-width:690px){
+.estel-anim{
+transform: scaleX(0.8); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:560px){
+.estel-anim{
+transform: scaleX(0.7); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:460px){
+.estel-anim{
+transform: scaleX(0.6); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:400px){
+.estel-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:350px){
+.estel-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+
+.max-anim{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: calc(6600px/11);
+height: 600px;
+background-image: url("../Imagens/slider-animation/Personagens/Max/Max-Animation-Final.png");
+object-fit: contain;
+animation-name: Max;
+animation-duration: 1s;
+animation-timing-function: steps(11);
+animation-iteration-count: infinite;
+}
+
+@keyframes Max{
+from{
+background-position: 0;
+} to{
+background-position:6600px ;
+}
+}
+
+
+@media(max-width:690px){
+.max-anim{
+transform: scaleX(0.8); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:560px){
+.max-anim{
+transform: scaleX(0.7); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:460px){
+.max-anim{
+transform: scaleX(0.6); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:400px){
+.max-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:350px){
+.max-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+.shiva-anim{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: calc(6000px/10);
+height: 600px;
+background-image: url("../Imagens/slider-animation/Personagens/Shiva/Shiva-Animation-Final.png");
+object-fit: contain;
+animation-name: Shiva;
+animation-duration: 1s;
+animation-timing-function: steps(10);
+animation-iteration-count: infinite;
+}
+
+@keyframes Shiva{
+from{
+background-position: 0;
+} to{
+background-position:6000px ;
+}
+}
+
+
+@media(max-width:690px){
+.shiva-anim{
+transform: scaleX(0.8); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:560px){
+.shiva-anim{
+transform: scaleX(0.7); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:460px){
+.shiva-anim{
+transform: scaleX(0.6); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:400px){
+.shiva-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
+@media(max-width:350px){
+.shiva-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
