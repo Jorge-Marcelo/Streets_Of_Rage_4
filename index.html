@@ -13,6 +13,7 @@
 <link rel='stylesheet' type='text/css' media='screen' href='css/sprite-animation.css'>
 <link rel='stylesheet' type='text/css' media='screen' href='css/slider.css'>
 <link rel='stylesheet' type='text/css' media='screen' href='css/carrossel.css'>
+<link rel='stylesheet' type='text/css' media='screen' href='css/slider-modal.css'>
 
 
 <!--Aadicionando fontes do Google fonts-->
@@ -294,8 +295,8 @@ notavelmente seus próprios ataques especiais.
 </p>
 
 <article  class="container-carrossel">
-<button id="anterior" onclick="anterior()"> &lt; </button>
-<button id="proximo" onclick="proximo()"> &gt; </button>
+<button id="anterior" onclick="anterior()">&#10094;</button>
+<button id="proximo" onclick="proximo()">&#10095;</button>
 <figcaption id="legenda"></figcaption>
 
 <figure class="image-container">
@@ -316,13 +317,89 @@ notavelmente seus próprios ataques especiais.
 <img src="assets/img/body/Inimigos/15.png" id="img15" class="carrossel-img">
 </figure>
 
-
-
 </article>
-
-
 </article>
 </section>
+
+
+<section>
+<article>
+<h1 class="itens-title">Chefes</h1>
+
+<section class="sliderModalContainer">
+
+
+<figure class="slidesModal">
+<img src="assets/img/body/Chefes/1.png" class="slideModal">
+<figcaption>Diva</figcaption>
+</figure>
+
+<figure class="slidesModal">
+<img src="assets/img/body/Chefes/2.png" class="slideModal">
+<figcaption>Comissario</figcaption>
+
+</figure>
+
+<figure class="slidesModal">
+<img src="assets/img/body/Chefes/3.png" class="slideModal">
+<figcaption>Nora</figcaption>
+</figure>
+
+
+<figure class="slidesModal">
+<img src="assets/img/body/Chefes/4.png" class="slideModal">
+<figcaption>Estel</figcaption>
+</figure>
+
+
+<figure class="slidesModal">
+<img src="assets/img/body/Chefes/5.png" class="slideModal">
+<figcaption>Barbon</figcaption>
+</figure>
+
+<figure class="slidesModal">
+<img src="assets/img/body/Chefes/6.png" class="slideModal">
+<figcaption>Shiva</figcaption>
+</figure>
+
+
+
+<figure class="slidesModal">
+<img src="assets/img/body/Chefes/7.png" class="slideModal">
+<figcaption>Max</figcaption>
+
+</figure>
+
+<figure class="slidesModal">
+<img src="assets/img/body/Chefes/8.png" class="slideModal">
+<figcaption>DJ K-Washi</figcaption>
+</figure>
+
+<figure class="slidesModal">
+<img src="assets/img/body/Chefes/9.png" class="slideModal">
+<figcaption>Mr Y</figcaption>
+</figure>
+
+
+<figure class="slidesModal">
+<img src="assets/img/body/Chefes/10.png" class="slideModal">
+<figcaption>Ms Y</figcaption>
+</figure>
+
+<section class="SliderControl">
+<button class="anteriorSlider" onclick="SliderControl(-1)">&#10094;</button>
+<button class="proximoSlider"   onclick="SliderControl(1)">&#10095;</button>
+</section>
+
+
+
+
+</section>
+
+
+</section>
+</article>
+
 
 <section>
 <article>
@@ -426,5 +503,6 @@ em sua pontuação, o que desbloqueará movimentos alternativos.
 <script src='js/nav.js'></script>
 <script src='js/slider.js'></script>
 <script src='js/carrossel.js'></script>
+<script src='js/slidesModal.js'></script>
 </body>
 </html>
