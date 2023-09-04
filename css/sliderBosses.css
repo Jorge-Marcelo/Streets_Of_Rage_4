@@ -1,5 +1,5 @@
  /* Estilos CSS para o slider */
- .sliderModalContainer {
+ .sliderBossesContainer {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -11,13 +11,13 @@ padding: 10px;
 margin: 20px;
 }
 
-.slidesModal {
+.slidesBosses {
 border: 3px solid rgb(255, 72, 0);
 margin: 10px;
 display: none; 
 }
 
-.slidesModal.active {
+.slidesBosses.active {
 display: block; 
 }
 
