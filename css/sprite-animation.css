@@ -266,6 +266,13 @@ transform-origin: left;
 }
 }
 
+@media(max-width:320px){
+.cherry-anim{
+transform: scaleX(0.5); 
+transform-origin: left; 
+}
+}
+
 
 .floyd{
 display: flex;

@@ -51,6 +51,26 @@ width: 320px;
 }
 }
 
+
+@media(max-width:340px){
+.container-slider{
+width: 320px;
+}
+}
+
+@media(max-width:330px){
+.container-slider{
+width: 310px;
+}
+}
+
+@media(max-width:320px){
+.container-slider{
+width: 305px;
+}
+}
+
+
 .proximo, .anterior{
 background-color: rgb(0, 0, 0);
 width: 55px;
@@ -87,16 +107,43 @@ margin: 10px;
 
 aside{
 display: grid;
-grid-template-columns: repeat(4, 70px);
+grid-template-columns: repeat(8, 60px);
 gap: 10px;
 margin-right: 3px;
 margin-bottom: 10px;
 }
 
+@media(max-width: 685px){
+aside{
+grid-template-columns: repeat(7, 60px);
+}
+}
+
+@media(max-width: 561px){
+aside{
+grid-template-columns: repeat(6, 60px);
+}
+}
+
+@media(max-width: 465px){
+aside{
+grid-template-columns: repeat(5, 60px);
+}
+}
+
+@media(max-width: 402px){
+aside{
+grid-template-columns: repeat(4, 60px);
+}
+}
+
+
+
+
 
 .miniaturas{
-width: 70px;
-height: 70px;
+width: 60px;
+height: 60px;
 border: 3px solid orangered;
 cursor: pointer;
 }
