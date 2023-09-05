@@ -1,3 +1,13 @@
+/*
+Autor: Jorge Marcelo
+Data de Criação: 05/09/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+*/ 
+
+/*Imagens miniatura do Modal*/
 .miniModal{
 margin-top: 10px;
 width: 70px;
@@ -13,6 +23,7 @@ opacity: 0.5;
 opacity: 1;
 }
 
+/*Container do Modal*/
 .modal{
 display: none;
 position: fixed;
@@ -27,6 +38,7 @@ background-color: black;
 background-color:  rgba(0,0,0,0.9);
 }
 
+/*Conteudo do modal*/
 .modal-content{
 margin: auto;
 display: flex;

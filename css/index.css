@@ -1,3 +1,12 @@
+/*
+Autor: Jorge Marcelo
+Data de Criação: 05/09/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+*/ 
+
 /*Configurações padrão do documento*/
 *{
 margin: 0;
@@ -76,8 +85,6 @@ background-position: 400%; /*Posição final*/
 }
 }
 
-
-
 h1.itens-title::after{
 display: block;
 margin: auto;
@@ -134,13 +141,6 @@ border-image-source: linear-gradient(to left, #ff0000, #ff8800);
 }
 
 .img2{
-border: 5px solid;
-border-image-slice: 1;
-border-image-source: linear-gradient(to left, #ff0000, #ff8800);
-margin: 10px;
-}
-
-.video{
 border: 5px solid;
 border-image-slice: 1;
 border-image-source: linear-gradient(to left, #ff0000, #ff8800);

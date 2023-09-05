@@ -1,6 +1,6 @@
 /*
 Autor: Jorge Marcelo
-Data de Criação: 28/08/2023
+Data de Criação: 05/09/2023
 Github: https://github.com/Jorge-Marcelo
 Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
 Instagram: https://www.instagram.com/10_stronger/
@@ -23,7 +23,7 @@ mostrarSlides(indiceSlides = numero)
 
 function mostrarSlides(numero){
 
-/*Contador que vai percorrer os slides*/
+/*Contador que vai percorrer os slides de 1 em 1*/
 let contador;
 
 let slides = document.getElementsByClassName("slides");
@@ -41,8 +41,6 @@ for (contador = 0; contador < slides.length; contador++){
 slides[contador].style.display = "none";
 miniaturas[contador].classList.remove("active");
 }
-
-
 
 /*Deixar a imagem atual do slider como ativa*/
 slides[indiceSlides - 1].style.display = "block";

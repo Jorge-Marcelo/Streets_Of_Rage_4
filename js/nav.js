@@ -1,3 +1,12 @@
+/*
+Autor: Jorge Marcelo
+Data de Criação: 05/09/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+*/ 
+
 /*Comunicação do JS com HTML com o DOM*/
 const btnMobile = document.getElementById("btn-mobile");
 

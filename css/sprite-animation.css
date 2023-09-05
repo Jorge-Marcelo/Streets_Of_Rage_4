@@ -1,24 +1,35 @@
+
+/*
+Autor: Jorge Marcelo
+Data de Criação: 05/09/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+*/ 
+
+/*Configuração da animação*/
+/*Explicando 1 eu ja estou automaticamente explicando os demais*/
 .axel-anim{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-width: calc(9600px / 16);
-height: 600px;
+width: calc(9600px / 16);/*Divisão da largura animação pela contidade de spries*/
+height: 600px; /*Largura da nimação*/
 background-image: url("../assets/img/slider-animation/Personagens/Axel/Axel-Animation-Final.png");
-object-fit: contain;
-animation-name: Axel;
-animation-duration: 1s;
-animation-timing-function: steps(16);
-animation-iteration-count: infinite;
+animation-name: Axel;/*Nome da animação*/
+animation-duration: 1s;/*Duração da animação*/
+animation-timing-function: steps(16);/*Quantidade de passos da animação baseado na quantidade de sprites*/
+animation-iteration-count: infinite;/*Quanto tempo a animação sera executada nesse caso infinitemnete*/
 }
 
 
 @keyframes Axel{
 from{
-background-position: 0;
+background-position: 0; /*Posição inicial da nimação*/
 } to{
-background-position:9600px ;
+background-position:9600px ; /*POsição finla*/
 }
 }
 
@@ -94,7 +105,6 @@ justify-content: center;
 width: calc(7800px/13);
 height: 600px;
 background-image: url("../assets/img/slider-animation/Personagens/Blaze/Blaze-Animation-Final.png");
-object-fit: contain;
 animation-name: Blaze;
 animation-duration: 1s;
 animation-timing-function: steps(13);
@@ -154,7 +164,6 @@ align-items: center;
 width: calc(7200px/12);
 height: 600px;
 background-image: url("../assets/img/slider-animation/Personagens/Adam/Adam-Animation-Final.png");
-object-fit: contain;
 animation-name: Adam;
 animation-duration: 1s;
 animation-timing-function: steps(12);
@@ -214,7 +223,6 @@ align-items: center;
 width: calc(4200px/7);
 height: 600px;
 background-image: url("../assets/img/slider-animation/Personagens/Cherry/Cherry-Animation-Final.png");
-object-fit: contain;
 animation-name: Cherry;
 animation-duration: 1s;
 animation-timing-function: steps(7);
@@ -328,7 +336,6 @@ justify-content: center;
 width: calc(4200px/7);
 height: 600px;
 background-image: url("../assets/img/slider-animation/Personagens/Estel/Estel-Animation-Final.png");
-object-fit: contain;
 animation-name: Estel;
 animation-duration: 1s;
 animation-timing-function: steps(7);
@@ -388,7 +395,6 @@ justify-content: center;
 width: calc(6600px/11);
 height: 600px;
 background-image: url("../assets/img/slider-animation/Personagens/Max/Max-Animation-Final.png");
-object-fit: contain;
 animation-name: Max;
 animation-duration: 1s;
 animation-timing-function: steps(11);
@@ -447,7 +453,6 @@ justify-content: center;
 width: calc(6000px/10);
 height: 600px;
 background-image: url("../assets/img/slider-animation/Personagens/Shiva/Shiva-Animation-Final.png");
-object-fit: contain;
 animation-name: Shiva;
 animation-duration: 1s;
 animation-timing-function: steps(10);
