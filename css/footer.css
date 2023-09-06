@@ -1,3 +1,12 @@
+/*Autor: Jorge Marcelo
+Data de Criação: 05/09/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+*/
+
+/*Configuração do rodape*/
 footer{
 display: flex;
 flex-direction: column;
@@ -9,6 +18,7 @@ border-image-slice: 1;
 border-image-source: linear-gradient(to left, #ff0000, #ff8800);
 }
 
+/*Texto com animação de gradiente*/
 h2{
 font-family: 'Oswald', sans-serif;
 font-size: 1.8em;
@@ -35,8 +45,7 @@ background-position: 400%; /*Posição final*/
 }
 }
 
-
-
+/*Botões de redes sociais*/
 .social{
 margin: 0 7px;
 width: 50px; 
