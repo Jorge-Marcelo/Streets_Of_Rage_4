@@ -58,7 +58,7 @@ display: none;
 }
 
 /*Configuração caso a tela seja mobile*/
-@media(max-width: 1220px){
+@media(max-width: 1350px){
 li{
 border-bottom: 3px solid rgb(255, 0, 0);
 }

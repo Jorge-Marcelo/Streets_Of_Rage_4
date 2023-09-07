@@ -12,6 +12,7 @@ Threads: https://www.threads.net/@10_stronger
 margin: 0;
 padding: 0;
 transition: all 0.5s ease;
+animation-delay: 5s;
 }
 
 /*Configuração do corpo do documento*/
