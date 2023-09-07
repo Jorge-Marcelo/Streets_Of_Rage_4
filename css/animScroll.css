@@ -7,6 +7,11 @@ Instagram: https://www.instagram.com/10_stronger/
 Threads: https://www.threads.net/@10_stronger
 */ 
 
+*{
+margin: 0;
+padding: 0;
+}
+
 /*Definindo animação*/
 [scroll-anim]{
 opacity: 0;
@@ -22,9 +27,7 @@ opacity: 1;
 /*Direção da animação*/
 [scroll-anim="top"]{
 transform: translate3d(0px, -50px,0px);
-margin-top: 60px;
 }
-
 
 
 
